@@ -1,8 +1,9 @@
-console.log("Esta esta bien");
-
 import fetch from 'fetch';
 
+console.log("Esta esta bien");
+
 const url = 'https://pokeapi.co/api/v2/pokemon/';
+
 const response = fetch(url);
 
 const pokemon = await response.json();
